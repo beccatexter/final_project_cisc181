@@ -59,6 +59,11 @@ export class PieceBlueHen extends Piece {
     }
 
     validMovePath(): boolean {
+        if(this.flies){
+            return true;
+        }else{
+            
+        }
         return true;
     }
 
