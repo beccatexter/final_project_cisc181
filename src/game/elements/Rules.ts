@@ -190,4 +190,12 @@ export class Rules {
         }
         return true;
     }
+    ///////////////
+    checkValidSwap(start: Location, end: Location): boolean {
+        if (!this.checkCommonRequirements(start, end, "swap")) {
+            return false;``
+        }else{
+            return true;
+        }
+    }
 }
